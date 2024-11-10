@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/test_data/test_data.egg-info
+writing ../../build/test_data/test_data.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_data/test_data.egg-info/dependency_links.txt
+writing entry points to ../../build/test_data/test_data.egg-info/entry_points.txt
+writing requirements to ../../build/test_data/test_data.egg-info/requires.txt
+writing top-level names to ../../build/test_data/test_data.egg-info/top_level.txt
+writing manifest file '../../build/test_data/test_data.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_data/test_data.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_data/test_data.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/amwhisper/ros/workspace/comm_ws/build/test_data/build
+creating /home/amwhisper/ros/workspace/comm_ws/build/test_data/build/lib
+creating /home/amwhisper/ros/workspace/comm_ws/build/test_data/build/lib/test_data
+copying test_data/__init__.py -> /home/amwhisper/ros/workspace/comm_ws/build/test_data/build/lib/test_data
+copying test_data/test_data.py -> /home/amwhisper/ros/workspace/comm_ws/build/test_data/build/lib/test_data
+running install
+running install_lib
+creating /home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages/test_data
+copying /home/amwhisper/ros/workspace/comm_ws/build/test_data/build/lib/test_data/__init__.py -> /home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages/test_data
+copying /home/amwhisper/ros/workspace/comm_ws/build/test_data/build/lib/test_data/test_data.py -> /home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages/test_data
+byte-compiling /home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages/test_data/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages/test_data/test_data.py to test_data.cpython-310.pyc
+running install_data
+creating /home/amwhisper/ros/workspace/comm_ws/install/test_data/share/ament_index
+creating /home/amwhisper/ros/workspace/comm_ws/install/test_data/share/ament_index/resource_index
+creating /home/amwhisper/ros/workspace/comm_ws/install/test_data/share/ament_index/resource_index/packages
+copying resource/test_data -> /home/amwhisper/ros/workspace/comm_ws/install/test_data/share/ament_index/resource_index/packages
+copying package.xml -> /home/amwhisper/ros/workspace/comm_ws/install/test_data/share/test_data
+creating /home/amwhisper/ros/workspace/comm_ws/install/test_data/share/test_data/msg
+running install_egg_info
+Copying ../../build/test_data/test_data.egg-info to /home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages/test_data-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_data script to /home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/test_data
+writing list of installed files to '/home/amwhisper/ros/workspace/comm_ws/build/test_data/install.log'

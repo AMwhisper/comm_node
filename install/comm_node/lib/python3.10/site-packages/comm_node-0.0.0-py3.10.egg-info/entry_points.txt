@@ -1,0 +1,3 @@
+[console_scripts]
+comm_node = comm_node.comm_node:main
+

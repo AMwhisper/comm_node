@@ -1,0 +1,21 @@
+[0.673s] Invoking command in '/home/amwhisper/ros/workspace/comm_ws/src/test_data': PYTHONPATH=/home/amwhisper/ros/workspace/comm_ws/build/test_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_data build --build-base /home/amwhisper/ros/workspace/comm_ws/build/test_data/build install --record /home/amwhisper/ros/workspace/comm_ws/build/test_data/install.log --single-version-externally-managed install_data
+[0.844s] running egg_info
+[0.845s] writing ../../build/test_data/test_data.egg-info/PKG-INFO
+[0.845s] writing dependency_links to ../../build/test_data/test_data.egg-info/dependency_links.txt
+[0.845s] writing entry points to ../../build/test_data/test_data.egg-info/entry_points.txt
+[0.845s] writing requirements to ../../build/test_data/test_data.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/test_data/test_data.egg-info/top_level.txt
+[0.846s] reading manifest file '../../build/test_data/test_data.egg-info/SOURCES.txt'
+[0.847s] writing manifest file '../../build/test_data/test_data.egg-info/SOURCES.txt'
+[0.847s] running build
+[0.847s] running build_py
+[0.848s] running install
+[0.848s] running install_lib
+[0.849s] running install_data
+[0.849s] running install_egg_info
+[0.851s] removing '/home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages/test_data-0.0.0-py3.10.egg-info' (and everything under it)
+[0.851s] Copying ../../build/test_data/test_data.egg-info to /home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages/test_data-0.0.0-py3.10.egg-info
+[0.852s] running install_scripts
+[0.871s] Installing test_data script to /home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/test_data
+[0.872s] writing list of installed files to '/home/amwhisper/ros/workspace/comm_ws/build/test_data/install.log'
+[0.901s] Invoked command in '/home/amwhisper/ros/workspace/comm_ws/src/test_data' returned '0': PYTHONPATH=/home/amwhisper/ros/workspace/comm_ws/build/test_data/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amwhisper/ros/workspace/comm_ws/install/test_data/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_data build --build-base /home/amwhisper/ros/workspace/comm_ws/build/test_data/build install --record /home/amwhisper/ros/workspace/comm_ws/build/test_data/install.log --single-version-externally-managed install_data

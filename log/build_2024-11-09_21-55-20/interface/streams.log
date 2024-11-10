@@ -1,0 +1,213 @@
+[0.016s] Invoking command in '/home/amwhisper/ros/workspace/comm_ws/build/interface': CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/comm_ws/install/test_data:/home/amwhisper/ros/workspace/comm_ws/install/interface:/home/amwhisper/ros/workspace/comm_ws/install/comm_node:/opt/ros/humble /usr/bin/cmake /home/amwhisper/ros/workspace/comm_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/amwhisper/ros/workspace/comm_ws/install/interface
+[0.026s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.141s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.145s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.188s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.488s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.732s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.051s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.054s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.081s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.081s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.081s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.099s] -- Found PythonExtra: .so  
+[1.154s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.193s] -- Added test 'lint_cmake' to check CMake code style
+[1.195s] -- Added test 'xmllint' to check XML markup files
+[1.198s] -- Configuring done
+[1.230s] -- Generating done
+[1.233s] -- Build files have been written to: /home/amwhisper/ros/workspace/comm_ws/build/interface
+[1.238s] Invoked command in '/home/amwhisper/ros/workspace/comm_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/comm_ws/install/test_data:/home/amwhisper/ros/workspace/comm_ws/install/interface:/home/amwhisper/ros/workspace/comm_ws/install/comm_node:/opt/ros/humble /usr/bin/cmake /home/amwhisper/ros/workspace/comm_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/amwhisper/ros/workspace/comm_ws/install/interface
+[1.240s] Invoking command in '/home/amwhisper/ros/workspace/comm_ws/build/interface': CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/comm_ws/install/test_data:/home/amwhisper/ros/workspace/comm_ws/install/interface:/home/amwhisper/ros/workspace/comm_ws/install/comm_node:/opt/ros/humble /usr/bin/cmake --build /home/amwhisper/ros/workspace/comm_ws/build/interface -- -j6 -l6
+[1.281s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.293s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.300s] [  6%] Built target ament_cmake_python_copy_interface
+[1.502s] [  6%] Built target interface__cpp
+[1.503s] running egg_info
+[1.503s] creating interface.egg-info
+[1.503s] writing interface.egg-info/PKG-INFO
+[1.504s] writing dependency_links to interface.egg-info/dependency_links.txt
+[1.504s] writing top-level names to interface.egg-info/top_level.txt
+[1.504s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[1.505s] reading manifest file 'interface.egg-info/SOURCES.txt'
+[1.506s] writing manifest file 'interface.egg-info/SOURCES.txt'
+[1.507s] [  9%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/autoaim_data__functions.c.o[0m
+[1.516s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.517s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.517s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.534s] [ 19%] Built target ament_cmake_python_build_interface_egg
+[1.573s] [ 22%] [32m[1mLinking C shared library libinterface__rosidl_generator_c.so[0m
+[1.622s] [ 22%] Built target interface__rosidl_generator_c
+[1.637s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.639s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.642s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.699s] [ 35%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/autoaim_data__type_support.cpp.o[0m
+[1.726s] [ 38%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/autoaim_data__type_support.cpp.o[0m
+[1.731s] [ 41%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/autoaim_data__type_support.cpp.o[0m
+[1.846s] [ 45%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/msg/autoaim_data__type_support.cpp.o[0m
+[1.846s] [ 48%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__type_support.c.o[0m
+[1.885s] [ 51%] [32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/msg/detail/autoaim_data__type_support_c.cpp.o[0m
+[1.886s] [ 54%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_c.so[0m
+[1.886s] [ 58%] [32m[1mLinking C shared library libinterface__rosidl_typesupport_introspection_c.so[0m
+[1.940s] [ 58%] Built target interface__rosidl_typesupport_introspection_c
+[1.946s] [ 58%] Built target interface__rosidl_typesupport_c
+[1.989s] [ 61%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_cpp.so[0m
+[2.036s] [ 61%] Built target interface__rosidl_typesupport_cpp
+[2.091s] [ 64%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_introspection_cpp.so[0m
+[2.100s] [ 67%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.140s] [ 67%] Built target interface__rosidl_typesupport_introspection_cpp
+[2.151s] [ 70%] [32m[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_c.so[0m
+[2.176s] [ 70%] Built target interface__rosidl_typesupport_fastrtps_cpp
+[2.223s] [ 70%] Built target interface__rosidl_typesupport_fastrtps_c
+[2.247s] [ 70%] Built target interface
+[2.270s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.517s] [ 74%] Built target interface__py
+[2.542s] [ 77%] [32mBuilding C object CMakeFiles/interface__rosidl_generator_py.dir/rosidl_generator_py/interface/msg/_autoaim_data_s.c.o[0m
+[2.693s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interface/libinterface__rosidl_generator_py.so[0m
+[2.741s] [ 80%] Built target interface__rosidl_generator_py
+[2.765s] [ 90%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.765s] [ 90%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.765s] [ 90%] [32mBuilding C object CMakeFiles/interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[2.850s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.850s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.850s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.890s] [100%] Built target interface__rosidl_typesupport_fastrtps_c__pyext
+[2.890s] [100%] Built target interface__rosidl_typesupport_c__pyext
+[2.890s] [100%] Built target interface__rosidl_typesupport_introspection_c__pyext
+[2.902s] Invoked command in '/home/amwhisper/ros/workspace/comm_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/comm_ws/install/test_data:/home/amwhisper/ros/workspace/comm_ws/install/interface:/home/amwhisper/ros/workspace/comm_ws/install/comm_node:/opt/ros/humble /usr/bin/cmake --build /home/amwhisper/ros/workspace/comm_ws/build/interface -- -j6 -l6
+[3.009s] Invoking command in '/home/amwhisper/ros/workspace/comm_ws/build/interface': CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/comm_ws/install/test_data:/home/amwhisper/ros/workspace/comm_ws/install/interface:/home/amwhisper/ros/workspace/comm_ws/install/comm_node:/opt/ros/humble /usr/bin/cmake --install /home/amwhisper/ros/workspace/comm_ws/build/interface
+[3.017s] -- Install configuration: ""
+[3.017s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface
+[3.017s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface
+[3.017s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg
+[3.017s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail
+[3.017s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__type_support.h
+[3.018s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__functions.h
+[3.019s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__struct.h
+[3.019s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__functions.c
+[3.019s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/rosidl_generator_c__visibility_control.h
+[3.019s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/autoaim_data.h
+[3.019s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/environment/library_path.sh
+[3.019s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/environment/library_path.dsv
+[3.019s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_generator_c.so
+[3.019s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_generator_c.so" to ""
+[3.019s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface
+[3.019s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg
+[3.019s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.020s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail
+[3.020s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__rosidl_typesupport_fastrtps_c.h
+[3.020s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so
+[3.020s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so" to ""
+[3.020s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface
+[3.020s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg
+[3.020s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.020s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail
+[3.020s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__rosidl_typesupport_introspection_c.h
+[3.020s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__type_support.c
+[3.020s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so
+[3.020s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so" to ""
+[3.020s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so
+[3.023s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_c.so" to ""
+[3.023s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface
+[3.023s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg
+[3.023s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/autoaim_data.hpp
+[3.023s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail
+[3.023s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__builder.hpp
+[3.023s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__traits.hpp
+[3.023s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__struct.hpp
+[3.023s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface
+[3.023s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg
+[3.023s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.024s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__rosidl_typesupport_fastrtps_cpp.hpp
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/dds_fastrtps
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so
+[3.024s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.024s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface
+[3.024s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg
+[3.024s] -- Up-to-date: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__type_support.cpp
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/include/interface/interface/msg/detail/autoaim_data__rosidl_typesupport_introspection_cpp.hpp
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so
+[3.024s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so" to ""
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so
+[3.024s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_typesupport_cpp.so" to ""
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/environment/pythonpath.sh
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/environment/pythonpath.dsv
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/top_level.txt
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/PKG-INFO
+[3.024s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.025s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface
+[3.025s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.025s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg
+[3.025s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_autoaim_data_s.c
+[3.025s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/__init__.py
+[3.025s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_autoaim_data.py
+[3.025s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.027s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py
+[3.027s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.027s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_c.c
+[3.027s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.028s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c
+[3.028s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/libinterface__rosidl_generator_py.so
+[3.062s] Listing '/home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface'...
+[3.062s] Compiling '/home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/__init__.py'...
+[3.062s] Listing '/home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg'...
+[3.062s] Compiling '/home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/__init__.py'...
+[3.062s] Compiling '/home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/msg/_autoaim_data.py'...
+[3.066s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.067s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.067s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.068s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.068s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.068s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/local/lib/python3.10/dist-packages/interface/interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.068s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_generator_py.so
+[3.069s] -- Set runtime path of "/home/amwhisper/ros/workspace/comm_ws/install/interface/lib/libinterface__rosidl_generator_py.so" to ""
+[3.069s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/msg/AutoaimData.idl
+[3.069s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/msg/AutoaimData.msg
+[3.069s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/ament_index/resource_index/package_run_dependencies/interface
+[3.069s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/ament_index/resource_index/parent_prefix_path/interface
+[3.069s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/environment/ament_prefix_path.sh
+[3.069s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/environment/ament_prefix_path.dsv
+[3.069s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/environment/path.sh
+[3.069s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/environment/path.dsv
+[3.070s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/local_setup.bash
+[3.070s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/local_setup.sh
+[3.070s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/local_setup.zsh
+[3.070s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/local_setup.dsv
+[3.070s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/package.dsv
+[3.070s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/ament_index/resource_index/packages/interface
+[3.070s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport.cmake
+[3.070s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cExport-noconfig.cmake
+[3.071s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[3.071s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.071s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake
+[3.071s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.071s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake
+[3.071s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake
+[3.071s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_cppExport.cmake
+[3.071s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.071s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/export_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/export_interface__rosidl_generator_pyExport-noconfig.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.073s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.074s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interfaceConfig.cmake
+[3.074s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/cmake/interfaceConfig-version.cmake
+[3.074s] -- Installing: /home/amwhisper/ros/workspace/comm_ws/install/interface/share/interface/package.xml
+[3.077s] Invoked command in '/home/amwhisper/ros/workspace/comm_ws/build/interface' returned '0': CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/comm_ws/install/test_data:/home/amwhisper/ros/workspace/comm_ws/install/interface:/home/amwhisper/ros/workspace/comm_ws/install/comm_node:/opt/ros/humble /usr/bin/cmake --install /home/amwhisper/ros/workspace/comm_ws/build/interface

@@ -1,0 +1,31 @@
+[0.014s] Invoking command in '/home/amwhisper/ros/workspace/comm_ws/build/interface': CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/comm_ws/install/test_data:/home/amwhisper/ros/workspace/comm_ws/install/interface:/home/amwhisper/ros/workspace/comm_ws/install/comm_node:/opt/ros/humble /usr/bin/cmake /home/amwhisper/ros/workspace/comm_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/amwhisper/ros/workspace/comm_ws/install/interface
+[0.080s] -- The C compiler identification is GNU 11.4.0
+[0.145s] -- The CXX compiler identification is GNU 11.4.0
+[0.153s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.369s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.371s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.570s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.711s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.721s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.735s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.860s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.100s] -- Configuring incomplete, errors occurred!
+[1.100s] See also "/home/amwhisper/ros/workspace/comm_ws/build/interface/CMakeFiles/CMakeOutput.log".
+[1.100s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[1.100s]   Packages installing interfaces must include
+[1.100s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[1.100s]   package.xml
+[1.100s] Call Stack (most recent call first):
+[1.100s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[1.100s] 
+[1.100s] [0m
+[1.107s] Invoked command in '/home/amwhisper/ros/workspace/comm_ws/build/interface' returned '1': CMAKE_PREFIX_PATH=/home/amwhisper/ros/workspace/comm_ws/install/test_data:/home/amwhisper/ros/workspace/comm_ws/install/interface:/home/amwhisper/ros/workspace/comm_ws/install/comm_node:/opt/ros/humble /usr/bin/cmake /home/amwhisper/ros/workspace/comm_ws/src/interface -DCMAKE_INSTALL_PREFIX=/home/amwhisper/ros/workspace/comm_ws/install/interface

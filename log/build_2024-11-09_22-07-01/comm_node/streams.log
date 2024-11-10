@@ -1,0 +1,24 @@
+[0.690s] Invoking command in '/home/amwhisper/ros/workspace/comm_ws/src/comm_node': PYTHONPATH=/home/amwhisper/ros/workspace/comm_ws/build/comm_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amwhisper/ros/workspace/comm_ws/install/comm_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/comm_node build --build-base /home/amwhisper/ros/workspace/comm_ws/build/comm_node/build install --record /home/amwhisper/ros/workspace/comm_ws/build/comm_node/install.log --single-version-externally-managed install_data
+[0.878s] running egg_info
+[0.879s] writing ../../build/comm_node/comm_node.egg-info/PKG-INFO
+[0.880s] writing dependency_links to ../../build/comm_node/comm_node.egg-info/dependency_links.txt
+[0.880s] writing entry points to ../../build/comm_node/comm_node.egg-info/entry_points.txt
+[0.881s] writing requirements to ../../build/comm_node/comm_node.egg-info/requires.txt
+[0.881s] writing top-level names to ../../build/comm_node/comm_node.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/comm_node/comm_node.egg-info/SOURCES.txt'
+[0.882s] writing manifest file '../../build/comm_node/comm_node.egg-info/SOURCES.txt'
+[0.883s] running build
+[0.883s] running build_py
+[0.883s] copying comm_node/comm_node.py -> /home/amwhisper/ros/workspace/comm_ws/build/comm_node/build/lib/comm_node
+[0.883s] running install
+[0.883s] running install_lib
+[0.884s] copying /home/amwhisper/ros/workspace/comm_ws/build/comm_node/build/lib/comm_node/comm_node.py -> /home/amwhisper/ros/workspace/comm_ws/install/comm_node/lib/python3.10/site-packages/comm_node
+[0.884s] byte-compiling /home/amwhisper/ros/workspace/comm_ws/install/comm_node/lib/python3.10/site-packages/comm_node/comm_node.py to comm_node.cpython-310.pyc
+[0.885s] running install_data
+[0.885s] running install_egg_info
+[0.887s] removing '/home/amwhisper/ros/workspace/comm_ws/install/comm_node/lib/python3.10/site-packages/comm_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.887s] Copying ../../build/comm_node/comm_node.egg-info to /home/amwhisper/ros/workspace/comm_ws/install/comm_node/lib/python3.10/site-packages/comm_node-0.0.0-py3.10.egg-info
+[0.887s] running install_scripts
+[0.906s] Installing comm_node script to /home/amwhisper/ros/workspace/comm_ws/install/comm_node/lib/comm_node
+[0.907s] writing list of installed files to '/home/amwhisper/ros/workspace/comm_ws/build/comm_node/install.log'
+[0.929s] Invoked command in '/home/amwhisper/ros/workspace/comm_ws/src/comm_node' returned '0': PYTHONPATH=/home/amwhisper/ros/workspace/comm_ws/build/comm_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amwhisper/ros/workspace/comm_ws/install/comm_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/comm_node build --build-base /home/amwhisper/ros/workspace/comm_ws/build/comm_node/build install --record /home/amwhisper/ros/workspace/comm_ws/build/comm_node/install.log --single-version-externally-managed install_data

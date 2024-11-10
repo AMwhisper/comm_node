@@ -1,0 +1,5 @@
+  File "/home/amwhisper/ros/workspace/comm_ws/install/comm_node/lib/python3.10/site-packages/comm_node/comm_node.py", line 10
+    self.serial_port = serial.Serial(uper().__init__('autoaim_snder')
+                                     
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
