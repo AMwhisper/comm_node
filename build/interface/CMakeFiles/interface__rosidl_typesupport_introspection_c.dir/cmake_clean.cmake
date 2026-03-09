@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__type_support.c.o"
-  "CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__type_support.c.o.d"
   "libinterface__rosidl_typesupport_introspection_c.pdb"
   "libinterface__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__rosidl_typesupport_introspection_c.h"

@@ -5,11 +5,10 @@
 #ifndef INTERFACE__MSG__DETAIL__AUTOAIM_DATA__BUILDER_HPP_
 #define INTERFACE__MSG__DETAIL__AUTOAIM_DATA__BUILDER_HPP_
 
+#include "interface/msg/detail/autoaim_data__struct.hpp"
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
-
-#include "interface/msg/detail/autoaim_data__struct.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace interface

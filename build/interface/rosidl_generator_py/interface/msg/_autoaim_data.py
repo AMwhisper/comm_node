@@ -5,10 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -124,7 +120,7 @@ class AutoaimData(metaclass=Metaclass_AutoaimData):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def yaw_angle_diff(self):
         """Message field 'yaw_angle_diff'."""
         return self._yaw_angle_diff
@@ -135,11 +131,9 @@ class AutoaimData(metaclass=Metaclass_AutoaimData):
             assert \
                 isinstance(value, float), \
                 "The 'yaw_angle_diff' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'yaw_angle_diff' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._yaw_angle_diff = value
 
-    @builtins.property
+    @property
     def pitch_angle_diff(self):
         """Message field 'pitch_angle_diff'."""
         return self._pitch_angle_diff
@@ -150,11 +144,9 @@ class AutoaimData(metaclass=Metaclass_AutoaimData):
             assert \
                 isinstance(value, float), \
                 "The 'pitch_angle_diff' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'pitch_angle_diff' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._pitch_angle_diff = value
 
-    @builtins.property
+    @property
     def fire(self):
         """Message field 'fire'."""
         return self._fire

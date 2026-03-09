@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/interface/msg/detail/autoaim_data__builder.hpp"
   "rosidl_generator_cpp/interface/msg/detail/autoaim_data__struct.hpp"
   "rosidl_generator_cpp/interface/msg/detail/autoaim_data__traits.hpp"
+  "rosidl_generator_cpp/interface/msg/detail/autoaim_data__type_support.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake.in
 
-set(_exported_include_dirs "${interface_DIR}/../../../include/interface")
+set(_exported_include_dirs "${interface_DIR}/../../../include")
 
 # append include directories to interface_INCLUDE_DIRS
 # warn about not existing paths

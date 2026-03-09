@@ -1,4 +1,3 @@
-﻿// NOLINT: This file starts with a BOM since it contain non-ASCII characters
 // generated from rosidl_generator_c/resource/idl__struct.h.em
 // with input from interface:msg/AutoaimData.idl
 // generated code does not contain a copyright notice
@@ -18,12 +17,7 @@ extern "C"
 
 // Constants defined in the message
 
-/// Struct defined in msg/AutoaimData in the package interface.
-/**
-  * protocol_name: AutoaimData
-  * protocol_id: 0X0401
-  * protocol_description: 云台控制
- */
+// Struct defined in msg/AutoaimData in the package interface.
 typedef struct interface__msg__AutoaimData
 {
   float yaw_angle_diff;

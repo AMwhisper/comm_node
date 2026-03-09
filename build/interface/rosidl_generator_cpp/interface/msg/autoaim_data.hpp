@@ -7,5 +7,6 @@
 #include "interface/msg/detail/autoaim_data__struct.hpp"
 #include "interface/msg/detail/autoaim_data__builder.hpp"
 #include "interface/msg/detail/autoaim_data__traits.hpp"
+#include "interface/msg/detail/autoaim_data__type_support.hpp"
 
 #endif  // INTERFACE__MSG__AUTOAIM_DATA_HPP_

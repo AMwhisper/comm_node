@@ -23,7 +23,6 @@ size_t get_serialized_size_interface__msg__AutoaimData(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_interface
 size_t max_serialized_size_interface__msg__AutoaimData(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_interface

@@ -6,9 +6,9 @@
 module interface {
   module msg {
     @verbatim (language="comment", text=
-      "protocol_name: AutoaimData" "\n"
-      "protocol_id: 0X0401" "\n"
-      "protocol_description: 云台控制")
+      " protocol_name: AutoaimData" "\n"
+      " protocol_id: 0X0401" "\n"
+      " protocol_description: 云台控制")
     struct AutoaimData {
       float yaw_angle_diff;
 
