@@ -1,6 +1,0 @@
-{
-  "package_name": "interface",
-  "non_idl_tuples": [
-    "/home/jetson/Algorithms/comm_node/src/interface:msg/AutoaimData.msg"
-  ]
-}

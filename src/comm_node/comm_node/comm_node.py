@@ -19,7 +19,7 @@ class AutoAimSender(Node):
         self.seq = 0
         self.callback_group = ReentrantCallbackGroup()
 
-        serial_port_path = '/dev/ttyACM0'
+        serial_port_path = '/dev/dji_vcp'
         baud_rate = 921600 
         
         try:
