@@ -19,7 +19,7 @@ class AutoAimSender(Node):
         self.seq = 0
         self.callback_group = ReentrantCallbackGroup()
 
-        serial_port_path = '/dev/ttyACM0'
+        serial_port_path = '/dev/dji_vcp'
         baud_rate = 921600 
         
         try:
@@ -67,7 +67,7 @@ class AutoAimSender(Node):
             return
 
         with self.lock:
-            yaw = self.latest_msg.yaw_angle_diff
+            yaw = -self.latest_msg.yaw_angle_diff 
             pitch = self.latest_msg.pitch_angle_diff
             fire = self.latest_msg.fire
 
@@ -76,7 +76,7 @@ class AutoAimSender(Node):
         try:
             self.serial_port.write(packet)
             self.seq = (self.seq + 1) % 256
-            self.get_logger().info(f'发送内容 -> Yaw: {yaw:.3f}, Pitch: {pitch:.3f}, Fire: {fire}, HEX: {packet.hex()}',throttle_duration_sec=0.5)
+            self.get_logger().info(f'发送内容 -> Yaw: {yaw:.3f}, Pitch: {pitch:.3f}, Fire: {fire}, HEX: {packet.hex()}',throttle_duration_sec=0)
             
         except serial.SerialException as e:
             self.get_logger().error(f"串口写入异常: {e}")

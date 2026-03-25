@@ -15,7 +15,7 @@ def pack_autoaim_data(yaw_angle_diff, pitch_angle_diff, fire, seq):
     packet.append(seq)  # 序列号
 
     # 3. CRC8 校验帧头
-    crc8 = get_crc8_checksum(packet[:3])  # 计算CRC8（帧头部分）
+    crc8 = get_crc8_checksum(packet[:4])  # 计算CRC8（帧头部分）
     packet.append(crc8)
 
     # 4. Cmd ID
@@ -64,13 +64,13 @@ crc16_table = [
 def get_crc8_checksum(message):
     crc = 0xff
     for byte in message:
-        crc = crc8_table[byte ^ crc]
+        crc = crc8_table[crc ^ byte]
     return crc
 
 
 def get_crc16_checksum(message):
     crc = 0xffff
     for byte in message:
-        crc = (crc >> 8) ^ crc16_table[(byte ^ crc) & 0x00ff]
+        crc = (crc >> 8) ^ crc16_table[(crc ^ byte) & 0x00ff]
     return crc
 
