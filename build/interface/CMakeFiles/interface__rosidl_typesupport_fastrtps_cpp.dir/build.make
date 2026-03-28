@@ -128,7 +128,7 @@ rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/autoaim_data__
 rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/autoaim_data__type_support.cpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/autoaim_data__type_support.cpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jetson/Algorithms/comm_node/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support for eProsima Fast-RTPS"
-	/home/jetson/archiconda3/envs/py3.8/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/jetson/Algorithms/comm_node/build/interface/rosidl_typesupport_fastrtps_cpp__arguments.json
+	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp --generator-arguments-file /home/jetson/Algorithms/comm_node/build/interface/rosidl_typesupport_fastrtps_cpp__arguments.json
 
 rosidl_typesupport_fastrtps_cpp/interface/msg/detail/autoaim_data__rosidl_typesupport_fastrtps_cpp.hpp: rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/autoaim_data__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_cpp/interface/msg/detail/autoaim_data__rosidl_typesupport_fastrtps_cpp.hpp

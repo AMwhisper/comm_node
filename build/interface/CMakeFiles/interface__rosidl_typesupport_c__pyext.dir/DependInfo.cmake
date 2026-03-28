@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "rosidl_generator_c"
   "rosidl_generator_py"
-  "/home/jetson/archiconda3/envs/py3.8/include/python3.8"
+  "/usr/include/python3.8"
   "rosidl_typesupport_c"
   "/opt/ros/foxy/include"
   )

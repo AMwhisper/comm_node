@@ -1,0 +1,520 @@
+[0.000000] (-) TimerEvent: {}
+[0.000410] (interface) JobQueued: {'identifier': 'interface', 'dependencies': OrderedDict()}
+[0.000488] (comm_node) JobQueued: {'identifier': 'comm_node', 'dependencies': OrderedDict([('interface', '/home/jetson/Algorithms/comm_node/install/interface')])}
+[0.002364] (interface) JobStarted: {'identifier': 'interface'}
+[0.040103] (interface) JobProgress: {'identifier': 'interface', 'progress': 'cmake'}
+[0.041603] (interface) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/Algorithms/comm_node/src/interface', '-DCMAKE_INSTALL_PREFIX=/home/jetson/Algorithms/comm_node/install/interface'], 'cwd': '/home/jetson/Algorithms/comm_node/build/interface', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.1.121 61204 22'), ('LC_TIME', 'en_CA.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jetson/Algorithms/comm_node/install/interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/yahboomcar_ws/devel/lib:/home/jetson/software/library_ws/devel/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jetson/Algorithms'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-143e85e7-7f3b-46c3-8e16-98154574a474.sock'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_CA.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jetson/Algorithms/comm_node/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1421724329706'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/yahboomcar_ws/devel/lib/pkgconfig:/home/jetson/software/library_ws/devel/lib/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/python3.8.13/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/usr/local/python3.8.13/bin:/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nodejs/bin:/home/jetson/ngc-cli:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts:/usr/local/nodejs/bin:/usr/local/nodejs/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5c8140736b206808.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/jetson/.vscode-server/data/User/workspaceStorage/8740995b70dd516e7bd5144b63cd0c6a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-35f3d252ff.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jetson/Algorithms/comm_node/install/comm_node:/home/jetson/Algorithms/comm_node/install/interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Algorithms/comm_node/build/interface'), ('SSH_CONNECTION', '192.168.1.121 61204 192.168.1.196 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BODYPOSE3D_HOME', '/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream_reference_apps/deepstream-bodypose-3d'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/jetson/Algorithms/comm_node/install/comm_node:/opt/ros/foxy:/home/jetson/yahboomcar_ws/devel:/home/jetson/software/library_ws/devel:/home/jetson/Algorithms/comm_node/install/interface'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[0.102447] (-) TimerEvent: {}
+[0.203633] (-) TimerEvent: {}
+[0.221202] (interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.303827] (-) TimerEvent: {}
+[0.362161] (interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.374083] (interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.404014] (-) TimerEvent: {}
+[0.504676] (-) TimerEvent: {}
+[0.605374] (-) TimerEvent: {}
+[0.666229] (interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.668769] (interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.705553] (-) TimerEvent: {}
+[0.806282] (-) TimerEvent: {}
+[0.860516] (interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.880172] (interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.882037] (interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.887550] (interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.906471] (-) TimerEvent: {}
+[1.008072] (-) TimerEvent: {}
+[1.108936] (-) TimerEvent: {}
+[1.119051] (interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.122246] (interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.209150] (-) TimerEvent: {}
+[1.309846] (-) TimerEvent: {}
+[1.348322] (interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.375344] (interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.377397] (interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.385747] (interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.409990] (-) TimerEvent: {}
+[1.457368] (interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.457917] (interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.510139] (-) TimerEvent: {}
+[1.611293] (-) TimerEvent: {}
+[1.711941] (-) TimerEvent: {}
+[1.812643] (-) TimerEvent: {}
+[1.913299] (-) TimerEvent: {}
+[2.014406] (-) TimerEvent: {}
+[2.115087] (-) TimerEvent: {}
+[2.121554] (interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.130609] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.139970] (interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.215269] (-) TimerEvent: {}
+[2.315963] (-) TimerEvent: {}
+[2.416687] (-) TimerEvent: {}
+[2.455515] (interface) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.516912] (-) TimerEvent: {}
+[2.556211] (interface) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.617114] (-) TimerEvent: {}
+[2.717817] (-) TimerEvent: {}
+[2.772296] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.817999] (-) TimerEvent: {}
+[2.828628] (interface) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.918211] (-) TimerEvent: {}
+[3.019004] (-) TimerEvent: {}
+[3.053849] (interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.119163] (-) TimerEvent: {}
+[3.220157] (-) TimerEvent: {}
+[3.320836] (-) TimerEvent: {}
+[3.421814] (-) TimerEvent: {}
+[3.464148] (interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.521990] (-) TimerEvent: {}
+[3.622720] (-) TimerEvent: {}
+[3.723697] (-) TimerEvent: {}
+[3.824450] (-) TimerEvent: {}
+[3.929454] (-) TimerEvent: {}
+[4.002681] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.029679] (-) TimerEvent: {}
+[4.130591] (-) TimerEvent: {}
+[4.231323] (-) TimerEvent: {}
+[4.316297] (interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.331724] (-) TimerEvent: {}
+[4.388541] (interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.391611] (interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[4.431883] (-) TimerEvent: {}
+[4.465922] (interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.466933] (interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.467295] (interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.467666] (interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[4.521592] (interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.532065] (-) TimerEvent: {}
+[4.632730] (-) TimerEvent: {}
+[4.733414] (-) TimerEvent: {}
+[4.835016] (-) TimerEvent: {}
+[4.935676] (-) TimerEvent: {}
+[5.036362] (-) TimerEvent: {}
+[5.137455] (-) TimerEvent: {}
+[5.242450] (-) TimerEvent: {}
+[5.343139] (-) TimerEvent: {}
+[5.443854] (-) TimerEvent: {}
+[5.545055] (-) TimerEvent: {}
+[5.546094] (interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.641587] (interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.644292] (interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.645121] (-) TimerEvent: {}
+[5.667517] (interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.745336] (-) TimerEvent: {}
+[5.846421] (-) TimerEvent: {}
+[5.942665] (interface) StdoutLine: {'line': b'-- Generating done\n'}
+[5.946570] (-) TimerEvent: {}
+[5.992883] (interface) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/Algorithms/comm_node/build/interface\n'}
+[6.034358] (interface) CommandEnded: {'returncode': 0}
+[6.037270] (interface) JobProgress: {'identifier': 'interface', 'progress': 'build'}
+[6.037408] (interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/Algorithms/comm_node/build/interface', '--', '-j6', '-l6'], 'cwd': '/home/jetson/Algorithms/comm_node/build/interface', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.1.121 61204 22'), ('LC_TIME', 'en_CA.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jetson/Algorithms/comm_node/install/interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/yahboomcar_ws/devel/lib:/home/jetson/software/library_ws/devel/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jetson/Algorithms'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-143e85e7-7f3b-46c3-8e16-98154574a474.sock'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_CA.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jetson/Algorithms/comm_node/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1421724329706'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/yahboomcar_ws/devel/lib/pkgconfig:/home/jetson/software/library_ws/devel/lib/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/python3.8.13/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/usr/local/python3.8.13/bin:/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nodejs/bin:/home/jetson/ngc-cli:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts:/usr/local/nodejs/bin:/usr/local/nodejs/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5c8140736b206808.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/jetson/.vscode-server/data/User/workspaceStorage/8740995b70dd516e7bd5144b63cd0c6a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-35f3d252ff.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jetson/Algorithms/comm_node/install/comm_node:/home/jetson/Algorithms/comm_node/install/interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Algorithms/comm_node/build/interface'), ('SSH_CONNECTION', '192.168.1.121 61204 192.168.1.196 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BODYPOSE3D_HOME', '/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream_reference_apps/deepstream-bodypose-3d'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/jetson/Algorithms/comm_node/install/comm_node:/opt/ros/foxy:/home/jetson/yahboomcar_ws/devel:/home/jetson/software/library_ws/devel:/home/jetson/Algorithms/comm_node/install/interface'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[6.046800] (-) TimerEvent: {}
+[6.147725] (-) TimerEvent: {}
+[6.248875] (-) TimerEvent: {}
+[6.270983] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__cpp\x1b[0m\n'}
+[6.333388] (interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.349055] (-) TimerEvent: {}
+[6.450156] (-) TimerEvent: {}
+[6.551315] (-) TimerEvent: {}
+[6.652474] (-) TimerEvent: {}
+[6.753660] (-) TimerEvent: {}
+[6.854345] (-) TimerEvent: {}
+[6.955111] (-) TimerEvent: {}
+[7.056266] (-) TimerEvent: {}
+[7.124220] (interface) StdoutLine: {'line': b'[  3%] Built target interface__cpp\n'}
+[7.156512] (-) TimerEvent: {}
+[7.159974] (interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.256647] (-) TimerEvent: {}
+[7.361600] (-) TimerEvent: {}
+[7.462618] (-) TimerEvent: {}
+[7.563719] (-) TimerEvent: {}
+[7.664769] (-) TimerEvent: {}
+[7.765880] (-) TimerEvent: {}
+[7.866936] (-) TimerEvent: {}
+[7.968048] (-) TimerEvent: {}
+[7.986040] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_generator_c\x1b[0m\n'}
+[8.034204] (interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_generator_c.dir/rosidl_generator_c/interface/msg/detail/autoaim_data__functions.c.o\x1b[0m\n'}
+[8.068263] (-) TimerEvent: {}
+[8.171246] (-) TimerEvent: {}
+[8.202935] (interface) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libinterface__rosidl_generator_c.so\x1b[0m\n'}
+[8.271430] (-) TimerEvent: {}
+[8.301628] (interface) StdoutLine: {'line': b'[ 12%] Built target interface__rosidl_generator_c\n'}
+[8.342905] (interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.371586] (-) TimerEvent: {}
+[8.472563] (-) TimerEvent: {}
+[8.573221] (-) TimerEvent: {}
+[8.674263] (-) TimerEvent: {}
+[8.774905] (-) TimerEvent: {}
+[8.860849] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.875085] (-) TimerEvent: {}
+[8.913005] (interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/autoaim_data__type_support.cpp.o\x1b[0m\n'}
+[8.975263] (-) TimerEvent: {}
+[9.075964] (-) TimerEvent: {}
+[9.176664] (-) TimerEvent: {}
+[9.277395] (-) TimerEvent: {}
+[9.378667] (-) TimerEvent: {}
+[9.480839] (-) TimerEvent: {}
+[9.581693] (-) TimerEvent: {}
+[9.683078] (-) TimerEvent: {}
+[9.754083] (interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.783495] (-) TimerEvent: {}
+[9.854459] (interface) StdoutLine: {'line': b'[ 22%] Built target interface__rosidl_typesupport_cpp\n'}
+[9.882742] (interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.883573] (-) TimerEvent: {}
+[9.984052] (-) TimerEvent: {}
+[10.085216] (-) TimerEvent: {}
+[10.186342] (-) TimerEvent: {}
+[10.287040] (-) TimerEvent: {}
+[10.309785] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_typesupport_c\x1b[0m\n'}
+[10.340381] (interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/msg/autoaim_data__type_support.cpp.o\x1b[0m\n'}
+[10.387283] (-) TimerEvent: {}
+[10.421757] (interface) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.487472] (-) TimerEvent: {}
+[10.519686] (interface) StdoutLine: {'line': b'[ 32%] Built target interface__rosidl_typesupport_c\n'}
+[10.548278] (interface) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.587749] (-) TimerEvent: {}
+[10.688679] (-) TimerEvent: {}
+[10.789713] (-) TimerEvent: {}
+[10.891512] (-) TimerEvent: {}
+[10.992958] (-) TimerEvent: {}
+[11.066557] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[11.093333] (-) TimerEvent: {}
+[11.102223] (interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__type_support.c.o\x1b[0m\n'}
+[11.193517] (-) TimerEvent: {}
+[11.227817] (interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libinterface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.293698] (-) TimerEvent: {}
+[11.331305] (interface) StdoutLine: {'line': b'[ 41%] Built target interface__rosidl_typesupport_introspection_c\n'}
+[11.366883] (interface) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[11.393858] (-) TimerEvent: {}
+[11.494494] (-) TimerEvent: {}
+[11.595535] (-) TimerEvent: {}
+[11.696616] (-) TimerEvent: {}
+[11.797631] (-) TimerEvent: {}
+[11.875848] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.897816] (-) TimerEvent: {}
+[11.924508] (interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface/msg/detail/dds_fastrtps/autoaim_data__type_support.cpp.o\x1b[0m\n'}
+[11.998020] (-) TimerEvent: {}
+[12.099052] (-) TimerEvent: {}
+[12.200071] (-) TimerEvent: {}
+[12.301396] (-) TimerEvent: {}
+[12.402672] (-) TimerEvent: {}
+[12.504077] (-) TimerEvent: {}
+[12.605244] (-) TimerEvent: {}
+[12.708980] (-) TimerEvent: {}
+[12.811001] (-) TimerEvent: {}
+[12.913060] (-) TimerEvent: {}
+[12.978554] (interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.013314] (-) TimerEvent: {}
+[13.115094] (-) TimerEvent: {}
+[13.216556] (-) TimerEvent: {}
+[13.246225] (interface) StdoutLine: {'line': b'[ 51%] Built target interface__rosidl_typesupport_fastrtps_cpp\n'}
+[13.291207] (interface) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.316697] (-) TimerEvent: {}
+[13.419082] (-) TimerEvent: {}
+[13.521049] (-) TimerEvent: {}
+[13.622193] (-) TimerEvent: {}
+[13.722925] (-) TimerEvent: {}
+[13.804507] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[13.823150] (-) TimerEvent: {}
+[13.861215] (interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface/msg/detail/autoaim_data__type_support.cpp.o\x1b[0m\n'}
+[13.923343] (-) TimerEvent: {}
+[14.024445] (-) TimerEvent: {}
+[14.125177] (-) TimerEvent: {}
+[14.225889] (-) TimerEvent: {}
+[14.326705] (-) TimerEvent: {}
+[14.427741] (-) TimerEvent: {}
+[14.528520] (-) TimerEvent: {}
+[14.629928] (-) TimerEvent: {}
+[14.716013] (interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.730068] (-) TimerEvent: {}
+[14.825649] (interface) StdoutLine: {'line': b'[ 61%] Built target interface__rosidl_typesupport_introspection_cpp\n'}
+[14.830268] (-) TimerEvent: {}
+[14.859020] (interface) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.930414] (-) TimerEvent: {}
+[15.031012] (-) TimerEvent: {}
+[15.131701] (-) TimerEvent: {}
+[15.232372] (-) TimerEvent: {}
+[15.333062] (-) TimerEvent: {}
+[15.400477] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[15.433249] (-) TimerEvent: {}
+[15.445998] (interface) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface/msg/detail/autoaim_data__type_support_c.cpp.o\x1b[0m\n'}
+[15.533451] (-) TimerEvent: {}
+[15.634184] (-) TimerEvent: {}
+[15.734900] (-) TimerEvent: {}
+[15.835989] (-) TimerEvent: {}
+[15.937468] (-) TimerEvent: {}
+[16.038562] (-) TimerEvent: {}
+[16.139427] (-) TimerEvent: {}
+[16.240592] (-) TimerEvent: {}
+[16.319802] (interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[16.340781] (-) TimerEvent: {}
+[16.441490] (-) TimerEvent: {}
+[16.542176] (-) TimerEvent: {}
+[16.642880] (-) TimerEvent: {}
+[16.676104] (interface) StdoutLine: {'line': b'[ 70%] Built target interface__rosidl_typesupport_fastrtps_c\n'}
+[16.703015] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface\x1b[0m\n'}
+[16.739830] (interface) StdoutLine: {'line': b'[ 70%] Built target interface\n'}
+[16.743005] (-) TimerEvent: {}
+[16.772699] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__py\x1b[0m\n'}
+[16.808276] (interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[16.843169] (-) TimerEvent: {}
+[16.943796] (-) TimerEvent: {}
+[17.044457] (-) TimerEvent: {}
+[17.145160] (-) TimerEvent: {}
+[17.245825] (-) TimerEvent: {}
+[17.346481] (-) TimerEvent: {}
+[17.447182] (-) TimerEvent: {}
+[17.548101] (-) TimerEvent: {}
+[17.648781] (-) TimerEvent: {}
+[17.750059] (-) TimerEvent: {}
+[17.851134] (-) TimerEvent: {}
+[17.932814] (interface) StdoutLine: {'line': b'[ 74%] Built target interface__py\n'}
+[17.951329] (-) TimerEvent: {}
+[17.959128] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__python\x1b[0m\n'}
+[18.053445] (-) TimerEvent: {}
+[18.063273] (interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interface__python.dir/rosidl_generator_py/interface/msg/_autoaim_data_s.c.o\x1b[0m\n'}
+[18.153678] (-) TimerEvent: {}
+[18.254639] (-) TimerEvent: {}
+[18.326653] (interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/libinterface__python.so\x1b[0m\n'}
+[18.354849] (-) TimerEvent: {}
+[18.434451] (interface) StdoutLine: {'line': b'[ 80%] Built target interface__python\n'}
+[18.455028] (-) TimerEvent: {}
+[18.466492] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[18.555204] (-) TimerEvent: {}
+[18.569531] (interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.655396] (-) TimerEvent: {}
+[18.756493] (interface) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[18.757064] (-) TimerEvent: {}
+[18.854580] (interface) StdoutLine: {'line': b'[ 87%] Built target interface__rosidl_typesupport_c__pyext\n'}
+[18.857160] (-) TimerEvent: {}
+[18.896894] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[18.954857] (interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.957378] (-) TimerEvent: {}
+[19.060443] (-) TimerEvent: {}
+[19.161739] (-) TimerEvent: {}
+[19.200500] (interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[19.261930] (-) TimerEvent: {}
+[19.365159] (-) TimerEvent: {}
+[19.401585] (interface) StdoutLine: {'line': b'[ 93%] Built target interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[19.447652] (interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[19.465330] (-) TimerEvent: {}
+[19.518677] (interface) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.565523] (-) TimerEvent: {}
+[19.666660] (-) TimerEvent: {}
+[19.739361] (interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interface/interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[19.766830] (-) TimerEvent: {}
+[19.867727] (-) TimerEvent: {}
+[19.873823] (interface) StdoutLine: {'line': b'[100%] Built target interface__rosidl_typesupport_introspection_c__pyext\n'}
+[19.904487] (interface) CommandEnded: {'returncode': 0}
+[19.906719] (interface) JobProgress: {'identifier': 'interface', 'progress': 'install'}
+[19.939660] (interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/Algorithms/comm_node/build/interface'], 'cwd': '/home/jetson/Algorithms/comm_node/build/interface', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.1.121 61204 22'), ('LC_TIME', 'en_CA.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jetson/Algorithms/comm_node/install/interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/yahboomcar_ws/devel/lib:/home/jetson/software/library_ws/devel/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/jetson/Algorithms'), ('TERM_PROGRAM_VERSION', '1.113.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-143e85e7-7f3b-46c3-8e16-98154574a474.sock'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_CA.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jetson/Algorithms/comm_node/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1421724329706'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/jetson/yahboomcar_ws/devel/lib/pkgconfig:/home/jetson/software/library_ws/devel/lib/pkgconfig'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/python3.8.13/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/usr/local/python3.8.13/bin:/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nodejs/bin:/home/jetson/ngc-cli:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts:/usr/local/nodejs/bin:/usr/local/nodejs/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_CA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5c8140736b206808.txt'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/jetson/.vscode-server/data/User/workspaceStorage/8740995b70dd516e7bd5144b63cd0c6a/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_CA.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-35f3d252ff.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jetson/Algorithms/comm_node/install/comm_node:/home/jetson/Algorithms/comm_node/install/interface:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_CA.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_CA.UTF-8'), ('LC_IDENTIFICATION', 'en_CA.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/jetson/Algorithms/comm_node/build/interface'), ('SSH_CONNECTION', '192.168.1.121 61204 192.168.1.196 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('BODYPOSE3D_HOME', '/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream_reference_apps/deepstream-bodypose-3d'), ('LC_NUMERIC', 'en_CA.UTF-8'), ('LC_PAPER', 'en_CA.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/jetson/Algorithms/comm_node/install/comm_node:/opt/ros/foxy:/home/jetson/yahboomcar_ws/devel:/home/jetson/software/library_ws/devel:/home/jetson/Algorithms/comm_node/install/interface'), ('JETSON_P_NUMBER', 'p3767-0003')]), 'shell': False}
+[19.967971] (-) TimerEvent: {}
+[19.969631] (interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.972334] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/ament_index/resource_index/rosidl_interfaces/interface\n'}
+[19.972983] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface\n'}
+[19.973849] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg\n'}
+[19.974366] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.975123] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail\n'}
+[19.975718] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__functions.h\n'}
+[19.976408] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__struct.h\n'}
+[19.977084] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__functions.c\n'}
+[19.977800] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__type_support.h\n'}
+[19.978490] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/autoaim_data.h\n'}
+[19.979216] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/environment/library_path.sh\n'}
+[19.979733] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/environment/library_path.dsv\n'}
+[19.980215] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_generator_c.so\n'}
+[19.980939] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_generator_c.so" to ""\n'}
+[19.981777] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface\n'}
+[19.982136] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg\n'}
+[19.982531] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.984924] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail\n'}
+[19.985524] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__rosidl_typesupport_fastrtps_c.h\n'}
+[19.985959] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so\n'}
+[19.986320] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[19.986493] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface\n'}
+[19.986733] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg\n'}
+[19.986872] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.987093] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail\n'}
+[19.987250] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/dds_fastrtps\n'}
+[19.987477] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.987828] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.988054] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[19.988291] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface\n'}
+[19.988491] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg\n'}
+[19.988624] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail\n'}
+[19.988771] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__rosidl_typesupport_introspection_c.h\n'}
+[19.988972] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__type_support.c\n'}
+[19.989172] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.989336] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so\n'}
+[19.989620] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[19.989879] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_c.so\n'}
+[19.990504] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_c.so" to ""\n'}
+[19.990850] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface\n'}
+[19.991084] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg\n'}
+[19.991743] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail\n'}
+[19.991945] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__builder.hpp\n'}
+[19.992100] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__struct.hpp\n'}
+[19.992337] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__traits.hpp\n'}
+[19.992533] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__type_support.hpp\n'}
+[19.992853] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/autoaim_data.hpp\n'}
+[19.993059] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[19.993269] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface\n'}
+[19.993404] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg\n'}
+[19.993530] (interface) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail\n'}
+[19.993783] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.993927] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/include/interface/msg/detail/autoaim_data__type_support.cpp\n'}
+[19.994056] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so\n'}
+[19.994324] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[19.994535] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_cpp.so\n'}
+[19.995156] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__rosidl_typesupport_cpp.so" to ""\n'}
+[19.995380] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/environment/pythonpath.sh\n'}
+[19.995591] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/environment/pythonpath.dsv\n'}
+[19.996122] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/__init__.py\n'}
+[20.068100] (-) TimerEvent: {}
+[20.091089] (interface) StdoutLine: {'line': b"Compiling '/home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/__init__.py'...\n"}
+[20.102539] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/msg\n'}
+[20.103260] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/msg/_autoaim_data_s.c\n'}
+[20.103477] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/msg/_autoaim_data.py\n'}
+[20.103721] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/msg/__init__.py\n'}
+[20.105058] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[20.105569] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[20.106101] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[20.107992] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[20.108385] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[20.111560] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages/interface/interface_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[20.111931] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__python.so\n'}
+[20.112750] (interface) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/Algorithms/comm_node/install/interface/lib/libinterface__python.so" to ""\n'}
+[20.113296] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/msg/AutoaimData.idl\n'}
+[20.113810] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/msg/AutoaimData.msg\n'}
+[20.114184] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/ament_index/resource_index/package_run_dependencies/interface\n'}
+[20.114701] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/ament_index/resource_index/parent_prefix_path/interface\n'}
+[20.115045] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/environment/ament_prefix_path.sh\n'}
+[20.115455] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/environment/ament_prefix_path.dsv\n'}
+[20.115873] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/environment/path.sh\n'}
+[20.116156] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/environment/path.dsv\n'}
+[20.116475] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/local_setup.bash\n'}
+[20.116761] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/local_setup.sh\n'}
+[20.117182] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/local_setup.zsh\n'}
+[20.117828] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/local_setup.dsv\n'}
+[20.118428] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/package.dsv\n'}
+[20.119602] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/ament_index/resource_index/packages/interface\n'}
+[20.121669] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_generator_cExport.cmake\n'}
+[20.122127] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.123018] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.123384] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.123729] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport.cmake\n'}
+[20.124212] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.124645] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_generator_cppExport.cmake\n'}
+[20.125425] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.125976] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.126401] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport.cmake\n'}
+[20.126739] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.127155] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/rosidl_cmake-extras.cmake\n'}
+[20.127797] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.129000] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.129289] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.129674] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.130359] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.130826] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.131533] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interfaceConfig.cmake\n'}
+[20.132018] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/cmake/interfaceConfig-version.cmake\n'}
+[20.132309] (interface) StdoutLine: {'line': b'-- Installing: /home/jetson/Algorithms/comm_node/install/interface/share/interface/package.xml\n'}
+[20.139148] (interface) CommandEnded: {'returncode': 0}
+[20.169099] (-) TimerEvent: {}
+[20.206886] (interface) JobEnded: {'identifier': 'interface', 'rc': 0}
+[20.208661] (comm_node) JobStarted: {'identifier': 'comm_node'}
+[20.269351] (-) TimerEvent: {}
+[20.370199] (-) TimerEvent: {}
+[20.470825] (-) TimerEvent: {}
+[20.571503] (-) TimerEvent: {}
+[20.672224] (-) TimerEvent: {}
+[20.773212] (-) TimerEvent: {}
+[20.874526] (-) TimerEvent: {}
+[20.975782] (-) TimerEvent: {}
+[21.076751] (-) TimerEvent: {}
+[21.177391] (-) TimerEvent: {}
+[21.285209] (-) TimerEvent: {}
+[21.386155] (-) TimerEvent: {}
+[21.488381] (-) TimerEvent: {}
+[21.589342] (-) TimerEvent: {}
+[21.690607] (-) TimerEvent: {}
+[21.791361] (-) TimerEvent: {}
+[21.892034] (-) TimerEvent: {}
+[21.992705] (-) TimerEvent: {}
+[22.093416] (-) TimerEvent: {}
+[22.194108] (-) TimerEvent: {}
+[22.294786] (-) TimerEvent: {}
+[22.395430] (-) TimerEvent: {}
+[22.496819] (-) TimerEvent: {}
+[22.597950] (-) TimerEvent: {}
+[22.698875] (-) TimerEvent: {}
+[22.799575] (-) TimerEvent: {}
+[22.900233] (-) TimerEvent: {}
+[23.000858] (-) TimerEvent: {}
+[23.101571] (-) TimerEvent: {}
+[23.202391] (-) TimerEvent: {}
+[23.303029] (-) TimerEvent: {}
+[23.403679] (-) TimerEvent: {}
+[23.505458] (-) TimerEvent: {}
+[23.606123] (-) TimerEvent: {}
+[23.706811] (-) TimerEvent: {}
+[23.808108] (-) TimerEvent: {}
+[23.891506] (comm_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/comm_node', 'build', '--build-base', '/home/jetson/Algorithms/comm_node/build/comm_node/build', 'install', '--record', '/home/jetson/Algorithms/comm_node/build/comm_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/Algorithms/comm_node/src/comm_node', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'jetson', 'SSH_CLIENT': '192.168.1.121 61204 22', 'LC_TIME': 'en_CA.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/jetson/Algorithms/comm_node/install/interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/jetson/yahboomcar_ws/devel/lib:/home/jetson/software/library_ws/devel/lib:/usr/local/cuda-11.4/lib64', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/jetson/Algorithms', 'TERM_PROGRAM_VERSION': '1.113.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-143e85e7-7f3b-46c3-8e16-98154574a474.sock', 'JETSON_L4T': '35.3.1', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_CA.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/Algorithms/comm_node/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1421724329706', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/jetson/yahboomcar_ws/devel/lib/pkgconfig:/home/jetson/software/library_ws/devel/lib/pkgconfig', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/python3.8.13/bin:/usr/local/cuda-11.4/bin:/opt/ros/foxy/bin:/usr/local/python3.8.13/bin:/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-cfbea10c5ffb233ea9177d34726e6056e89913dc/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/nodejs/bin:/home/jetson/ngc-cli:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts:/usr/local/nodejs/bin:/usr/local/nodejs/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_CA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-5c8140736b206808.txt', 'LANG': 'zh_CN.UTF-8', 'PYTHONSTARTUP': '/home/jetson/.vscode-server/data/User/workspaceStorage/8740995b70dd516e7bd5144b63cd0c6a/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'en_CA.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-35f3d252ff.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jetson/Algorithms/comm_node/install/comm_node:/home/jetson/Algorithms/comm_node/install/interface:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_CA.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_CA.UTF-8', 'LC_IDENTIFICATION': 'en_CA.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/jetson/Algorithms/comm_node/build/comm_node', 'SSH_CONNECTION': '192.168.1.121 61204 192.168.1.196 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/Algorithms/comm_node/build/comm_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/Algorithms/comm_node/install/comm_node/lib/python3.8/site-packages:/home/jetson/Algorithms/comm_node/install/interface/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'BODYPOSE3D_HOME': '/opt/nvidia/deepstream/deepstream/sources/apps/sample_apps/deepstream_reference_apps/deepstream-bodypose-3d', 'LC_NUMERIC': 'en_CA.UTF-8', 'LC_PAPER': 'en_CA.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '5.1.1', 'CMAKE_PREFIX_PATH': '/home/jetson/Algorithms/comm_node/install/interface:/home/jetson/yahboomcar_ws/devel:/home/jetson/software/library_ws/devel', 'JETSON_P_NUMBER': 'p3767-0003'}, 'shell': False}
+[23.908172] (-) TimerEvent: {}
+[24.010494] (-) TimerEvent: {}
+[24.111537] (-) TimerEvent: {}
+[24.212208] (-) TimerEvent: {}
+[24.312927] (-) TimerEvent: {}
+[24.413641] (-) TimerEvent: {}
+[24.514300] (-) TimerEvent: {}
+[24.614967] (-) TimerEvent: {}
+[24.716587] (-) TimerEvent: {}
+[24.817630] (-) TimerEvent: {}
+[24.918366] (-) TimerEvent: {}
+[24.919003] (comm_node) StdoutLine: {'line': b'running egg_info\n'}
+[24.920598] (comm_node) StdoutLine: {'line': b'creating ../../build/comm_node/comm_node.egg-info\n'}
+[24.966003] (comm_node) StdoutLine: {'line': b'writing ../../build/comm_node/comm_node.egg-info/PKG-INFO\n'}
+[24.967050] (comm_node) StdoutLine: {'line': b'writing dependency_links to ../../build/comm_node/comm_node.egg-info/dependency_links.txt\n'}
+[24.967600] (comm_node) StdoutLine: {'line': b'writing entry points to ../../build/comm_node/comm_node.egg-info/entry_points.txt\n'}
+[24.967880] (comm_node) StdoutLine: {'line': b'writing requirements to ../../build/comm_node/comm_node.egg-info/requires.txt\n'}
+[24.968118] (comm_node) StdoutLine: {'line': b'writing top-level names to ../../build/comm_node/comm_node.egg-info/top_level.txt\n'}
+[24.969775] (comm_node) StdoutLine: {'line': b"writing manifest file '../../build/comm_node/comm_node.egg-info/SOURCES.txt'\n"}
+[25.018552] (-) TimerEvent: {}
+[25.089032] (comm_node) StdoutLine: {'line': b"reading manifest file '../../build/comm_node/comm_node.egg-info/SOURCES.txt'\n"}
+[25.091132] (comm_node) StdoutLine: {'line': b"writing manifest file '../../build/comm_node/comm_node.egg-info/SOURCES.txt'\n"}
+[25.091904] (comm_node) StdoutLine: {'line': b'running build\n'}
+[25.092245] (comm_node) StdoutLine: {'line': b'running build_py\n'}
+[25.092542] (comm_node) StdoutLine: {'line': b'creating /home/jetson/Algorithms/comm_node/build/comm_node/build\n'}
+[25.092773] (comm_node) StdoutLine: {'line': b'creating /home/jetson/Algorithms/comm_node/build/comm_node/build/lib\n'}
+[25.093249] (comm_node) StdoutLine: {'line': b'creating /home/jetson/Algorithms/comm_node/build/comm_node/build/lib/comm_node\n'}
+[25.094606] (comm_node) StdoutLine: {'line': b'copying comm_node/pack.py -> /home/jetson/Algorithms/comm_node/build/comm_node/build/lib/comm_node\n'}
+[25.095058] (comm_node) StdoutLine: {'line': b'copying comm_node/__init__.py -> /home/jetson/Algorithms/comm_node/build/comm_node/build/lib/comm_node\n'}
+[25.095458] (comm_node) StdoutLine: {'line': b'copying comm_node/comm_node.py -> /home/jetson/Algorithms/comm_node/build/comm_node/build/lib/comm_node\n'}
+[25.096332] (comm_node) StdoutLine: {'line': b'running install\n'}
+[25.119636] (-) TimerEvent: {}
+[25.122089] (comm_node) StdoutLine: {'line': b'running install_lib\n'}
+[25.166907] (comm_node) StdoutLine: {'line': b'creating /home/jetson/Algorithms/comm_node/install/comm_node/lib/python3.8/site-packages/comm_node\n'}
+[25.167612] (comm_node) StdoutLine: {'line': b'copying /home/jetson/Algorithms/comm_node/build/comm_node/build/lib/comm_node/pack.py -> /home/jetson/Algorithms/comm_node/install/comm_node/lib/python3.8/site-packages/comm_node\n'}
+[25.167903] (comm_node) StdoutLine: {'line': b'copying /home/jetson/Algorithms/comm_node/build/comm_node/build/lib/comm_node/__init__.py -> /home/jetson/Algorithms/comm_node/install/comm_node/lib/python3.8/site-packages/comm_node\n'}
+[25.168066] (comm_node) StdoutLine: {'line': b'copying /home/jetson/Algorithms/comm_node/build/comm_node/build/lib/comm_node/comm_node.py -> /home/jetson/Algorithms/comm_node/install/comm_node/lib/python3.8/site-packages/comm_node\n'}
+[25.169219] (comm_node) StdoutLine: {'line': b'byte-compiling /home/jetson/Algorithms/comm_node/install/comm_node/lib/python3.8/site-packages/comm_node/pack.py to pack.cpython-38.pyc\n'}
+[25.172080] (comm_node) StdoutLine: {'line': b'byte-compiling /home/jetson/Algorithms/comm_node/install/comm_node/lib/python3.8/site-packages/comm_node/__init__.py to __init__.cpython-38.pyc\n'}
+[25.172763] (comm_node) StdoutLine: {'line': b'byte-compiling /home/jetson/Algorithms/comm_node/install/comm_node/lib/python3.8/site-packages/comm_node/comm_node.py to comm_node.cpython-38.pyc\n'}
+[25.174576] (comm_node) StdoutLine: {'line': b'running install_data\n'}
+[25.175059] (comm_node) StdoutLine: {'line': b'creating /home/jetson/Algorithms/comm_node/install/comm_node/share/ament_index\n'}
+[25.175435] (comm_node) StdoutLine: {'line': b'creating /home/jetson/Algorithms/comm_node/install/comm_node/share/ament_index/resource_index\n'}
+[25.175606] (comm_node) StdoutLine: {'line': b'creating /home/jetson/Algorithms/comm_node/install/comm_node/share/ament_index/resource_index/packages\n'}
+[25.175822] (comm_node) StdoutLine: {'line': b'copying resource/comm_node -> /home/jetson/Algorithms/comm_node/install/comm_node/share/ament_index/resource_index/packages\n'}
+[25.176070] (comm_node) StdoutLine: {'line': b'copying package.xml -> /home/jetson/Algorithms/comm_node/install/comm_node/share/comm_node\n'}
+[25.176245] (comm_node) StdoutLine: {'line': b'creating /home/jetson/Algorithms/comm_node/install/comm_node/share/comm_node/msg\n'}
+[25.176401] (comm_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.219782] (-) TimerEvent: {}
+[25.220488] (comm_node) StdoutLine: {'line': b'Copying ../../build/comm_node/comm_node.egg-info to /home/jetson/Algorithms/comm_node/install/comm_node/lib/python3.8/site-packages/comm_node-0.0.0-py3.8.egg-info\n'}
+[25.222886] (comm_node) StdoutLine: {'line': b'running install_scripts\n'}
+[25.319951] (-) TimerEvent: {}
+[25.391780] (comm_node) StdoutLine: {'line': b'Installing comm_node script to /home/jetson/Algorithms/comm_node/install/comm_node/lib/comm_node\n'}
+[25.396530] (comm_node) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/Algorithms/comm_node/build/comm_node/install.log'\n"}
+[25.420141] (-) TimerEvent: {}
+[25.521309] (-) TimerEvent: {}
+[25.563156] (comm_node) CommandEnded: {'returncode': 0}
+[25.577176] (comm_node) JobEnded: {'identifier': 'comm_node', 'rc': 0}
+[25.579178] (-) EventReactorShutdown: {}

@@ -80,7 +80,7 @@ interface__rosidl_typesupport_fastrtps_c__pyext_EXTERNAL_OBJECTS =
 rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o
 rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: CMakeFiles/interface__rosidl_typesupport_fastrtps_c__pyext.dir/build.make
 rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: rosidl_generator_py/interface/libinterface__python.so
-rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /home/jetson/archiconda3/envs/py3.8/lib/libpython3.8.so
+rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /usr/lib/aarch64-linux-gnu/libpython3.8.so
 rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: libinterface__rosidl_typesupport_fastrtps_c.so
 rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: libinterface__rosidl_typesupport_c.so
 rosidl_generator_py/interface/interface_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so: /opt/ros/foxy/lib/librmw.so

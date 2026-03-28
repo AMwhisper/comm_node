@@ -128,7 +128,7 @@ rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__rosidl_typ
 rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__rosidl_typesupport_introspection_c.h: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jetson/Algorithms/comm_node/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
-	/home/jetson/archiconda3/envs/py3.8/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/jetson/Algorithms/comm_node/build/interface/rosidl_typesupport_introspection_c__arguments.json
+	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/jetson/Algorithms/comm_node/build/interface/rosidl_typesupport_introspection_c__arguments.json
 
 rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__type_support.c: rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/interface/msg/detail/autoaim_data__type_support.c

@@ -1,6 +1,13 @@
-# 忽略 ROS 2 编译生成的文件夹
 build/
 install/
 log/
 
-.env
+*.pyc
+__pycache__/
+*.pyo
+
+.vscode/
+.idea/
+
+*.swp
+.DS_Store

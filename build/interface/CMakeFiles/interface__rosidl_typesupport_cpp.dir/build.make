@@ -126,7 +126,7 @@ rosidl_typesupport_cpp/interface/msg/autoaim_data__type_support.cpp: /opt/ros/fo
 rosidl_typesupport_cpp/interface/msg/autoaim_data__type_support.cpp: /opt/ros/foxy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_cpp/interface/msg/autoaim_data__type_support.cpp: /opt/ros/foxy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jetson/Algorithms/comm_node/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
-	/home/jetson/archiconda3/envs/py3.8/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/jetson/Algorithms/comm_node/build/interface/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
+	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/jetson/Algorithms/comm_node/build/interface/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 
 CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/autoaim_data__type_support.cpp.o: CMakeFiles/interface__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface/msg/autoaim_data__type_support.cpp.o: rosidl_typesupport_cpp/interface/msg/autoaim_data__type_support.cpp
