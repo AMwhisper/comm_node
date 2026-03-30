@@ -196,7 +196,7 @@ class AutoAimSender(Node):
             self.get_logger().info(
                 f'SEND yaw={yaw:.3f}, pitch={pitch:.3f}, fire={fire}, '
                 f'write={write_dt_ms:.3f}ms, period={period_ms:.3f}ms',
-                throttle_duration_sec=1.0
+                throttle_duration_sec=0.5
             )
 
         except (SerialException, OSError) as e:
