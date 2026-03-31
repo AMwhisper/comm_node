@@ -40,6 +40,7 @@ struct AutoaimData_
       this->yaw_angle_diff = 0.0f;
       this->pitch_angle_diff = 0.0f;
       this->fire = 0;
+      this->source_timestamp = 0.0;
     }
   }
 
@@ -52,6 +53,7 @@ struct AutoaimData_
       this->yaw_angle_diff = 0.0f;
       this->pitch_angle_diff = 0.0f;
       this->fire = 0;
+      this->source_timestamp = 0.0;
     }
   }
 
@@ -65,6 +67,9 @@ struct AutoaimData_
   using _fire_type =
     uint8_t;
   _fire_type fire;
+  using _source_timestamp_type =
+    double;
+  _source_timestamp_type source_timestamp;
 
   // setters for named parameter idiom
   Type & set__yaw_angle_diff(
@@ -83,6 +88,12 @@ struct AutoaimData_
     const uint8_t & _arg)
   {
     this->fire = _arg;
+    return *this;
+  }
+  Type & set__source_timestamp(
+    const double & _arg)
+  {
+    this->source_timestamp = _arg;
     return *this;
   }
 
@@ -135,6 +146,9 @@ struct AutoaimData_
       return false;
     }
     if (this->fire != other.fire) {
+      return false;
+    }
+    if (this->source_timestamp != other.source_timestamp) {
       return false;
     }
     return true;

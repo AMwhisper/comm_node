@@ -20,6 +20,7 @@ interface__msg__AutoaimData__init(interface__msg__AutoaimData * msg)
   // yaw_angle_diff
   // pitch_angle_diff
   // fire
+  // source_timestamp
   return true;
 }
 
@@ -32,6 +33,7 @@ interface__msg__AutoaimData__fini(interface__msg__AutoaimData * msg)
   // yaw_angle_diff
   // pitch_angle_diff
   // fire
+  // source_timestamp
 }
 
 bool
@@ -52,6 +54,10 @@ interface__msg__AutoaimData__are_equal(const interface__msg__AutoaimData * lhs, 
   if (lhs->fire != rhs->fire) {
     return false;
   }
+  // source_timestamp
+  if (lhs->source_timestamp != rhs->source_timestamp) {
+    return false;
+  }
   return true;
 }
 
@@ -69,6 +75,8 @@ interface__msg__AutoaimData__copy(
   output->pitch_angle_diff = input->pitch_angle_diff;
   // fire
   output->fire = input->fire;
+  // source_timestamp
+  output->source_timestamp = input->source_timestamp;
   return true;
 }
 

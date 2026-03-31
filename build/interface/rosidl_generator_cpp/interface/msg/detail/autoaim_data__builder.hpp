@@ -20,16 +20,32 @@ namespace msg
 namespace builder
 {
 
+class Init_AutoaimData_source_timestamp
+{
+public:
+  explicit Init_AutoaimData_source_timestamp(::interface::msg::AutoaimData & msg)
+  : msg_(msg)
+  {}
+  ::interface::msg::AutoaimData source_timestamp(::interface::msg::AutoaimData::_source_timestamp_type arg)
+  {
+    msg_.source_timestamp = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::interface::msg::AutoaimData msg_;
+};
+
 class Init_AutoaimData_fire
 {
 public:
   explicit Init_AutoaimData_fire(::interface::msg::AutoaimData & msg)
   : msg_(msg)
   {}
-  ::interface::msg::AutoaimData fire(::interface::msg::AutoaimData::_fire_type arg)
+  Init_AutoaimData_source_timestamp fire(::interface::msg::AutoaimData::_fire_type arg)
   {
     msg_.fire = std::move(arg);
-    return std::move(msg_);
+    return Init_AutoaimData_source_timestamp(msg_);
   }
 
 private:

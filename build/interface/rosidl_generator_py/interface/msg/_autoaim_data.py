@@ -56,18 +56,21 @@ class AutoaimData(metaclass=Metaclass_AutoaimData):
         '_yaw_angle_diff',
         '_pitch_angle_diff',
         '_fire',
+        '_source_timestamp',
     ]
 
     _fields_and_field_types = {
         'yaw_angle_diff': 'float',
         'pitch_angle_diff': 'float',
         'fire': 'uint8',
+        'source_timestamp': 'double',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('uint8'),  # noqa: E501
+        rosidl_parser.definition.BasicType('double'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -77,6 +80,7 @@ class AutoaimData(metaclass=Metaclass_AutoaimData):
         self.yaw_angle_diff = kwargs.get('yaw_angle_diff', float())
         self.pitch_angle_diff = kwargs.get('pitch_angle_diff', float())
         self.fire = kwargs.get('fire', int())
+        self.source_timestamp = kwargs.get('source_timestamp', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -112,6 +116,8 @@ class AutoaimData(metaclass=Metaclass_AutoaimData):
         if self.pitch_angle_diff != other.pitch_angle_diff:
             return False
         if self.fire != other.fire:
+            return False
+        if self.source_timestamp != other.source_timestamp:
             return False
         return True
 
@@ -160,3 +166,16 @@ class AutoaimData(metaclass=Metaclass_AutoaimData):
             assert value >= 0 and value < 256, \
                 "The 'fire' field must be an unsigned integer in [0, 255]"
         self._fire = value
+
+    @property
+    def source_timestamp(self):
+        """Message field 'source_timestamp'."""
+        return self._source_timestamp
+
+    @source_timestamp.setter
+    def source_timestamp(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, float), \
+                "The 'source_timestamp' field must be of type 'float'"
+        self._source_timestamp = value

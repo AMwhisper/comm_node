@@ -23,6 +23,7 @@ typedef struct interface__msg__AutoaimData
   float yaw_angle_diff;
   float pitch_angle_diff;
   uint8_t fire;
+  double source_timestamp;
 } interface__msg__AutoaimData;
 
 // Struct for a sequence of interface__msg__AutoaimData.

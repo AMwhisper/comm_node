@@ -5,3 +5,4 @@
 float32 yaw_angle_diff
 float32 pitch_angle_diff
 uint8 fire
+float64 source_timestamp

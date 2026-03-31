@@ -77,6 +77,15 @@ bool interface__msg__autoaim_data__convert_from_py(PyObject * _pymsg, void * _ro
     ros_message->fire = (uint8_t)PyLong_AsUnsignedLong(field);
     Py_DECREF(field);
   }
+  {  // source_timestamp
+    PyObject * field = PyObject_GetAttrString(_pymsg, "source_timestamp");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->source_timestamp = PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -126,6 +135,17 @@ PyObject * interface__msg__autoaim_data__convert_to_py(void * raw_ros_message)
     field = PyLong_FromUnsignedLong(ros_message->fire);
     {
       int rc = PyObject_SetAttrString(_pymessage, "fire", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // source_timestamp
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->source_timestamp);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "source_timestamp", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

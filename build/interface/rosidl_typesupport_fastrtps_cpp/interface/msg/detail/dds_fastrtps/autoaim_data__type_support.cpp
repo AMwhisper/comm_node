@@ -38,6 +38,8 @@ cdr_serialize(
   cdr << ros_message.pitch_angle_diff;
   // Member: fire
   cdr << ros_message.fire;
+  // Member: source_timestamp
+  cdr << ros_message.source_timestamp;
   return true;
 }
 
@@ -55,6 +57,9 @@ cdr_deserialize(
 
   // Member: fire
   cdr >> ros_message.fire;
+
+  // Member: source_timestamp
+  cdr >> ros_message.source_timestamp;
 
   return true;
 }
@@ -87,6 +92,12 @@ get_serialized_size(
   // Member: fire
   {
     size_t item_size = sizeof(ros_message.fire);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: source_timestamp
+  {
+    size_t item_size = sizeof(ros_message.source_timestamp);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -130,6 +141,14 @@ max_serialized_size_AutoaimData(
     size_t array_size = 1;
 
     current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: source_timestamp
+  {
+    size_t array_size = 1;
+
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
   return current_alignment - initial_alignment;
