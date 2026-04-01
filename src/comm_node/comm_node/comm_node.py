@@ -223,6 +223,10 @@ class AutoAimSender(Node):
             ser.write(packet)
             write_dt_ms = (time.perf_counter() - t0) * 1000.0
 
+            t1 = time.perf_counter()
+            ser.flush()
+            flush_dt_ms = (time.perf_counter() - t1) * 1000.0
+
             self.seq = (self.seq + 1) % 256
             self.last_sent_msg_seq = msg_seq
             self.last_sent_signature = command_signature
@@ -230,14 +234,14 @@ class AutoAimSender(Node):
 
             # 低频打印，避免200Hz日志拖慢系统
             if self.last_send_time is None:
-                period_ms = 1.0
+                period_ms = 0.0
             else:
                 period_ms = (now - self.last_send_time) * 1000.0
             self.last_send_time = now
 
             self.get_logger().info(
                 f'SEND yaw={yaw:.3f}, pitch={pitch:.3f}, fire={fire}, '
-                f'write={write_dt_ms:.3f}ms, period={period_ms:.3f}ms, '
+                f'write={write_dt_ms:.3f}ms, flush={flush_dt_ms:.3f}ms, period={period_ms:.3f}ms, '
                 f'age={msg_age * 1000.0:.1f}ms, pipeline={pipeline_latency_ms:.1f}ms, '
                 f'reason={send_reason}',
                 throttle_duration_sec=0.5
